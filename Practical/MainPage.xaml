@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel>
-        <TextBlock Text="Employee" FontWeight="Bold" Margin="10"/>
+        <TextBlock Text="Employee List" FontWeight="Bold" Margin="10"/>
         <ListView x:Name="Menu">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:Employee">
